@@ -16,3 +16,6 @@ print("The coordinates are",coordinates)
 print(type(coordinates))
 
 # Complex - Math equations with imaginary numbers.
+z1 = 4 + 2j
+z2 = complex (1,2)
+print(complex)
