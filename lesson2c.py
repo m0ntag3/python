@@ -22,7 +22,15 @@ print('====================')
 player = {
     "name" : "Messi",
     "age" : 40,
-    "teams" : ["PSG", "Barcelona",  "Argentina"]   
+    "teams" : ["PSG", "Barcelona",  "Argentina"],
+    "more" : {
+        "children" : 3,
+        "residence" : "US",
+        "phone" : ( 2546787789, 2542186798, 254772818)
+    }  
 }
 # Print Barcelona - the second team he played for
 print(player["teams"][1])
+
+# Messi's second number
+print("Messi's second number is",player["more"]["phone"][2])
