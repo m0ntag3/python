@@ -18,18 +18,19 @@ for county in counties:
     print(county)
 
 print("++++++++++++++++++++++")
-counties = ("Nairobi", "Mombasa", "Nakuru", "Eldoret", "Kajiado", "Machakos", "Meru", "Embu", "Kisumu")
+counties = ("Nairobi", "Mombasa", "Nakuru", "Eldoret", "Kajiado", "Machakos", "Meru", "Embu")
 for county in counties:
     if "Kisumu" in counties:
         print("County found")
         break
     else:
         print("County not found")
+        break
 
 player = {
     "name" : "Mbappe",
     "age" : 23,
-    "teams" : ["Monaco","PSG", "Real Madrid"],
+    "teams" : ("Monaco","PSG", "Real Madrid"),
     "nationality" : "French"
 }
 for key in player:

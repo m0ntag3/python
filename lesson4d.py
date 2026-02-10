@@ -21,6 +21,8 @@ while number <= 70:
     print(number)
     number= number + 2
 
+print("==================")
+
 # Below is a decrement example
 number = 201
 while number >= 150:

@@ -17,7 +17,16 @@ while number >= 1:
     number= number - 1
 
 # python functions with and without parameters.
+    # Function - Code block that operates when called.
+            # Types of functions:
+            # 1. Bulit-in functions; print()
+            # 2. User- defined functions; 
+            # def greet(name):
+            #     return f"Hello, {name}!"
 
+            #     print(greet("Alice"))
+            # 3. Lambda/anonymuos functions; small, one-line functions defined without a name
+            # 4. method functions; functions that belong to an object or a class.
     # Python functions without parameters - Used for tasks that stay constant.(Self-reliant)
     # Syntax - Have parenthesis that are left blank ().
     # Can be used to display messages i.e Welcome and Static timelapse generation.
