@@ -1,0 +1,33 @@
+# 1.
+for numbers in range(2000,2025):
+    print(numbers)
+
+print("++++++++++++++++++++++++++")
+
+# 2.
+Colors = ["Blue","Green","Red", "Pink","Black"]
+for Color in Colors:
+    print(Color)
+
+print("++++++++++++++++++++++++++")
+# 3.
+number = 20
+while number >= 1:
+    print(number)
+    number= number - 1
+
+# python functions with and without parameters.
+
+    # Python functions without parameters - Used for tasks that stay constant.(Self-reliant)
+    # Syntax - Have parenthesis that are left blank ().
+    # Can be used to display messages i.e Welcome and Static timelapse generation.
+
+def greet_person():
+        print("Good Morning, you are welcome")
+
+     # Python functions with parameters - Hold place for data to be passed into function.
+     # Syntax - Variables are defined in parenthesis.
+     # Arguments - Values to be passed into the function.
+
+def personal_greeting(name):
+     print(f"Good Morning, {name}! you are welcome")

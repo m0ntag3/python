@@ -20,6 +20,11 @@ elif Gross_Salary >= 50000 and Gross_Salary <= 99999:
 else:
     print("Monthly Contribution", 2000.00)
 
+number = 1000000
+formatted_number = format(number, ",")
+print(formatted_number) 
+
+format(number, ",")
 
     # Looping
     # 1. For loop
