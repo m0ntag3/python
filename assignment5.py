@@ -15,7 +15,10 @@ def calculation(x,y):
     difference = x - y
     product = x * y
     division = x / y
-    print("The evaluations of the two numbers are", sum, difference, product, division)
+    print("The sum of the two numbers is", sum)
+    print("The difference of the two numbers is", difference)
+    print("The product of the two numbers is", product)
+    print("The qoutient of the two numbers is", division)
 
 calculation(99,9)
 
@@ -34,8 +37,15 @@ else:
 print("==================================")
 
 # 4.
-for number in range(1,15,+1):
-    print(number)
+def calculate_sum(n):
+    n = int(input("Enter value for n:",))
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+
+result = calculate_sum(5)
+print(f"The sum is: {result}") 
 
 print("=====================================")
 
