@@ -6,3 +6,10 @@ try:
     print("The answer is:", answer)
 except Exception as e:
     print("There is an error:", e)
+
+
+try:
+        numbers = [10,20,30]
+        print("Your number is:", number[6])
+except Exception as e:
+        print("There is an error:", e)
